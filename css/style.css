@@ -131,6 +131,15 @@ img {
 
 @media screen and (max-width: 768px) {
 
+    /* General */
+
+    .container {
+
+        max-width: 768px;
+    }
+
+    /* Header */
+
     h1 {
 
         font-size: 2.3rem;
@@ -147,9 +156,58 @@ img {
     }
 
 
+}
+
+@media screen and (max-width: 576px) {
+
+    /* General */
 
     .container {
 
-        max-width: 768px;
+        max-width: 576px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .row {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
+
+        width: 100%;
+
+    }
+
+    .steps {
+
+        margin-bottom: 0;
+
+    }
+
+    .lessons p,
+    .steps p,
+    .why-us {
+
+        padding-bottom: 2.5rem;
+    }
+
+    .why-us h2,
+    h3:first-child {
+
+        padding-top: 2.5rem;
+    }
+
+    .why-us {
+
+        background-color: #222222;
+        margin-bottom: 0;
+
     }
 }
