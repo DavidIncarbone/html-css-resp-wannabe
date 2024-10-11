@@ -129,6 +129,19 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+
+@media screen and (max-width:1160px) {
+
+
+    .container {
+
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
 
     /* General */
@@ -136,7 +149,11 @@ img {
     .container {
 
         max-width: 100%;
+        display: flex;
+        flex-direction: column;
     }
+
+
 
     /* Header */
 
@@ -154,9 +171,10 @@ img {
 
         font-size: 1.3rem;
     }
-
-
 }
+
+
+
 
 @media screen and (max-width: 576px) {
 
