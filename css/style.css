@@ -135,7 +135,7 @@ img {
 
     .container {
 
-        max-width: 768px;
+        max-width: 100%;
     }
 
     /* Header */
@@ -164,7 +164,7 @@ img {
 
     .container {
 
-        max-width: 576px;
+        max-width: 100%;
         display: flex;
         flex-direction: column;
 
@@ -179,7 +179,8 @@ img {
 
     .lessons .col,
     .steps .col,
-    .why-us .col {
+    .why-us .col,
+    .why-us .col-right {
 
         width: 100%;
 
